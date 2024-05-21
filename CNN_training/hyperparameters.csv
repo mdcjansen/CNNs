@@ -1,0 +1,24 @@
+variable,value
+root_dir,D:\path\to\root_dir
+xlsx_path,D:\path\to\binary.xlsx
+train_dirname,Training
+val_dirname,Validation
+wandb_name,wandb_project_name
+wandb_save,D:\path\to\local_wandb_save_folder
+model_param_csv,D:\path\to\CNN_model_hyperparameters.csv
+dataload_workers,3
+accumulation_steps,5
+num_epochs,50
+num_trials,100
+es_counter,0
+es_limit,15
+tl_learn_rate,1e-4; 5e-4;1e-3;2e-3;3e-3;4e-3;6e-3;8e-3;1e-2
+tl_batch_norm,True;False
+tl_batch_size_min,64
+tl_batch_size_max,512
+tl_batch_size_step,64
+tl_weight_decay_min,1e-5
+tl_weight_decay_max,1e-1
+tl_gamma_min,0.1
+tl_gamma_max,1.0
+tl_gamma_step,0.1
